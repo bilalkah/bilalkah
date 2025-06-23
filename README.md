@@ -2,7 +2,7 @@
 
 ### 🚀 Tech Stack & Interests
 
-- 💻 **Languages**: C++, Python, C, Go, SQL, Bash  
+- 💻 **Languages**: C++, Python, C, SQL, Bash  
 - ⚙️ **Technologies**: PostgreSQL, ROS, Unreal Engine, CMake, Docker  
 - 📦 **Domains**: Robotics, Autonomous Vehicles, Databases, Game Dev  
 - 🧠 **Learning Now**: HFT, Trading Bots, Mobile Apps  
