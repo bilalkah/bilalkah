@@ -1,21 +1,25 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilalkah)
 
-### 🚀 Tech Stack & Interests
+## Tech Stack & Focus
 
-- 💻 **Languages**: C++, Python, C, SQL, Bash  
-- ⚙️ **Technologies**: PostgreSQL, ROS, Unreal Engine, CMake, Docker  
-- 📦 **Domains**: Robotics, Autonomous Vehicles, Databases, Game Dev  
-- 🧠 **Learning Now**: HFT, Trading Bots, Mobile Apps  
+- **Languages:** C++, C, Python, SQL, Bash
+- **Core Areas:** Database systems, PostgreSQL internals, distributed systems, real-time infrastructure
+- **Backend / Infra:** WebSockets, Protocol Buffers, PostgreSQL, Redis, Docker, Linux
+- **Previous Domains:** Robotics, autonomous systems, simulation, sensor-related software
+- **Interests:** Database internals, performance engineering, networking, low-level systems
 
 ---
 
-### 🧩 Featured Projects
+## Featured Projects
 
-- 🎮 **[Wolfenstein-style Game Engine (C++)](https://github.com/bilalkah/wolfenstein)**  
-  Custom 3D raycasting engine built from scratch in C++, inspired by Wolfenstein 3D. No game engine used — low-level graphics, collision, and movement systems.
+- **[Kergit — Real-Time Communication Platform](https://github.com/bilalkah/kergit-server)**  
+  Open-source voice and messaging platform with a C++ backend, WebSocket/protobuf protocol, PostgreSQL, Redis, LiveKit, and self-hosted infrastructure.
 
-- 🤖 **[Path Planning for Autonomous Robots](https://github.com/bilalkah/path-planning)**  
-  Implementation of various path planning algorithms (A*, RRT, etc.) for autonomous robotics. Includes simulation, visualization, and optimization techniques.
+- **[Wolfenstein-style Game Engine (C++)](https://github.com/bilalkah/wolfenstein)**  
+  Custom raycasting engine built from scratch in C++ without a game engine; includes low-level rendering, collision, and movement systems.
+
+- **[Path Planning for Autonomous Robots](https://github.com/bilalkah/path-planning)**  
+  Path-planning implementations for autonomous robotics, including A*, RRT, simulation, visualization, and optimization techniques.
 
 ---
 
