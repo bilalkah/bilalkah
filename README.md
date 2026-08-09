@@ -1,44 +1,53 @@
+# Bilal Kahraman
+
+**C++ Systems Engineer — Database Internals** · Database Kernel Developer @ Huawei
+
+I work on PostgreSQL internals and database engine development, and contribute
+upstream to Babelfish for PostgreSQL — T-SQL compatibility, type systems, and
+engine-level bug fixes.
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilalkah)
+[![Email](https://img.shields.io/badge/Email-kahramannbilal%40gmail.com-red?logo=gmail&logoColor=white)](mailto:kahramannbilal@gmail.com)
 
-## Tech Stack & Focus
+---
 
-- **Languages:** C++, C, Python, SQL, Bash
-- **Core Areas:** Database systems, PostgreSQL internals, distributed systems, real-time infrastructure
-- **Backend / Infra:** WebSockets, Protocol Buffers, PostgreSQL, Redis, Docker, Linux
-- **Previous Domains:** Robotics, autonomous systems, simulation, sensor-related software
-- **Interests:** Database internals, performance engineering, networking, low-level systems
+## 🐘 Open-Source Contributions
+
+**[Babelfish for PostgreSQL](https://babelfishpg.org)** — T-SQL compatibility for PostgreSQL
+
+Merged contributions in both layers of the project:
+
+- **[PostgreSQL engine (modified for Babelfish)](https://github.com/babelfish-for-postgresql/postgresql_modified_for_babelfish/pulls?q=is%3Apr+author%3Abilalkah+is%3Amerged)** —
+  engine-level fixes in the modified PostgreSQL core
+- **[Babelfish extensions](https://github.com/babelfish-for-postgresql/babelfish_extensions/pulls?q=is%3Apr+author%3Abilalkah+is%3Amerged)** —
+  T-SQL type-system compatibility
+
+Highlights:
+- Implemented bidirectional `char`/`nchar` ↔ `binary`/`varbinary` casting with
+  encoding-aware conversions, including `TRY_CAST`/`CONVERT`/`TRY_CONVERT` support
+- Fixed T-SQL decimal→integer conversion semantics (truncation vs. rounding) —
+  a correctness issue affecting financial computations in migrated workloads
+- Engine-side function behavior fixes in the modified PostgreSQL core
 
 ---
 
 ## Featured Projects
 
-- **[Kergit — Real-Time Communication Platform](https://github.com/bilalkah/kergit-server)**  
-  Open-source voice and messaging platform with a C++ backend, WebSocket/protobuf protocol, PostgreSQL, Redis, LiveKit, and self-hosted infrastructure.
-
-- **[Wolfenstein-style Game Engine (C++)](https://github.com/bilalkah/wolfenstein)**  
-  Custom raycasting engine built from scratch in C++ without a game engine; includes low-level rendering, collision, and movement systems.
-
-- **[Path Planning for Autonomous Robots](https://github.com/bilalkah/path-planning)**  
-  Path-planning implementations for autonomous robotics, including A*, RRT, simulation, visualization, and optimization techniques.
+- **[Kergit — Real-Time Communication Platform](https://github.com/bilalkah/kergit-server)**
+  Open-source voice and messaging platform: custom C++ WebSocket server, Protocol
+  Buffers protocol, PostgreSQL persistence, Redis session state, LiveKit media,
+  self-hosted deployment.
+- **[Wolfenstein-Style Game Engine](https://github.com/bilalkah/wolfenstein)**
+  Raycasting engine from scratch in C++/SDL — DDA rendering, A* pathfinding,
+  state-machine enemy behavior.
+- **[Path Planning Library](https://github.com/bilalkah/path-planning)**
+  C++ implementations of A*, RRT, RRT* and friends, with simulation and visualization.
 
 ---
 
-### 📈 GitHub Stats
+## Tech
 
-![](https://github-readme-stats.vercel.app/api?username=bilalkah&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=bilalkah&theme=midnight-purple&hide_border=false)<br/>
-
-<!--
-**bilalkah/bilalkah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Languages:** C++11/17, C, Python, SQL, Bash
+**Focus:** PostgreSQL internals · database kernel development · performance engineering · networking
+**Infra:** Linux, Docker, WebSockets, Protocol Buffers, Redis
+**Background:** robotics & autonomous systems, automotive simulation
